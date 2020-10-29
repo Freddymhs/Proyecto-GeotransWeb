@@ -24,7 +24,7 @@ module.exports = {
         background_color: "#f8f8ff",
         display: "fullscreen",
         // display: "minimal-ui'",
-        start_url: `https://maquinariasgeotrans.cl/`,
+        start_url: `/`,
         icon: "src/favicons/android-chrome-192x192.png", // This path is relative to the root of the site.
       },
     },
