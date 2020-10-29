@@ -24,7 +24,7 @@ module.exports = {
         background_color: "#f8f8ff",
         display: "fullscreen",
         // display: "minimal-ui'",
-        start_url: `/geotrans`,
+        start_url: `https://maquinariasgeotrans.cl/`,
         icon: "src/favicons/android-chrome-192x192.png", // This path is relative to the root of the site.
       },
     },
@@ -92,7 +92,7 @@ module.exports = {
             idFieldName: "CODSERVICIO",
             name: "TodosLosServicios",
           },
-       ],
+        ],
       },
     },
     // test
@@ -126,20 +126,17 @@ module.exports = {
 //
 //GEOTRANS Servicios, Arriendos, Transportes , equipos para Obras ,limpieza
 
-
 //consultas graphql de tipo mysql
 // query {
 //   allMysqlTodos{
 //     edges {
 //       node {
 //         asdaaa
-        
+
 //       }
 //     }
 //   }
 // }
-
-
 
 // consultas de graphql para mysql
 
@@ -151,4 +148,3 @@ module.exports = {
 //       }
 //     }
 //   }
-
