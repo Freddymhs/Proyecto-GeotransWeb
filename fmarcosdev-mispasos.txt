@@ -1,0 +1,92 @@
+cree el proyecto 
+voy a crear subpaginas para las pages y respetar el seo entre otras ventajas
+instale i18next para traduccion de provider a childs
+
+yarn add gatsby-plugin-i18n
+https://www.gatsbyjs.com/plugins/gatsby-plugin-react-i18next/ lo logre asi , tenia mal las carpetas
+
+
+seccion header terminada con traduccion
+seccion footer terminada con traduccion
+
+video portada 
+yarn add react-video-cover
+
+agregar multiples estilos con spread operator
+crear rotacion de palabras en vertical
+
+pagina 'PORTADA' terminada 
+
+pagina maquinarias crear colores
+
+yarn add react-responsive-video el video de portada swe veia mal en celu
+
+
+
+
+yarn add reactjs-videobg  funciona como fondo de backgroun de web full pero no lo use yo
+
+cambie el react video cover por import Video from "react-responsive-video" en PORTADA
+
+cambie colores del menu de la web
+
+mejore el degradado de la portada
+
+crear seccion maquinarias pero no es como debe terminar, es solo la estructura
+separe mi componente Maquinarias en mas componentes
+
+
+
+https://eb1.it/react-animated-slider/ elegantoso , para servicios
+yarn add react-multi-carousel carousel    PARA exhibicionde camiones actuales
+https://www.npmjs.com/package/simple-react-lightbox  para mostrar camiones actuales en maquinarias
+
+https://www.heavyhaulers.com/machinery/machinery-transport-services.php
+https://allmachinerytransport.com/
+
+
+
+https://openbase.io/js/react-popupbox  me gusta para mostar mas que fotos
+https://frontend-collective.github.io/react-image-lightbox/ btn muestra mucha mas info
+https://openbase.io/js/fslightbox-react hermoso :D fracase
+
+react-lightbox-component aver
+
+yarn add react-awesome-lightbox............... MALO lightbox starts open and wont close
+
+ yarn add simple-react-lightbox  FACIL Y FUNCIONAL!!s
+
+comenzadno maquinarias.
+yarn add styled-components   
+----------------------------------------------------------------------------------------
+
+
+yarn add react-parallax  https://www.npmjs.com/package/react-parallax  funciono bien
+
+----------------------------------------------------------------------------------------
+usar contenido especial para maquinarias.
+mostraro contenido en tarjeta frontend
+mostrar mas contenido en tarjeta back
+
+
+
+
+
+hace una clase Maquinaariasytransportes // modulo
+instanciar una tras otra por cada maquinarias
+
+
+
+
+----------------------CONTACTENOS
+yarn add formik
+agregando una  file de componentes globales de styled para exportar
+compoentes h1h2h3.... compoentes botones de 3 tipos
+avanzado en la parte de contacos, falta los banners y algo de promociones de la empresa , luego lograr usar email
+
+yarn add  react-styled-carousel
+
+agregado emailjs  para 200 emilas maximos pero gratuito y muy facil , agregado en el fomrulariopersonalizado
+
+
+
