@@ -1,7 +1,7 @@
 // import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logoweb from "../../../images/logo/geotransLogo.png"
+// import logoweb from "../../../images/logo/geotransLogo.png"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 
 import Brandheader from "./componentesHeader/Brandheader" // componente brand
@@ -47,7 +47,6 @@ const Header = data => {
                 height: 68
                 fit: CONTAIN
               ) {
-                # ...GatsbyImageSharpFixed
                 ...GatsbyImageSharpFixed_noBase64
               }
             }
