@@ -113,7 +113,7 @@ const FormularioPersonalizado = props => {
 
               emailjs
                 .send(
-                  "service_omf76uj",
+                  "service_lcq9xod",
                   "template_eern02a",
                   values,
                   "user_gtDZqbc0iEWWvKKsUiDuq"
@@ -121,9 +121,11 @@ const FormularioPersonalizado = props => {
                 .then(
                   response => {
                     console.log("SUCCESS!", response.status, response.text)
+                    alert("Correo Enviado con exito")
                   },
                   err => {
                     console.log("FAILED...", err)
+                    alert("Correo Fallo al Enviar")
                   }
                 )
 
@@ -235,7 +237,7 @@ const FormularioPersonalizado = props => {
                       class="form-control"
                       id="details"
                       name="details"
-                      rows="4"
+                      rows="12"
                     ></textarea>
 
                     <p className="text-white bg-danger">
