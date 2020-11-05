@@ -30,6 +30,7 @@ import Helmet from "react-helmet"
 
 // para usar context de layout// para usar context de layout
 import { CartContext } from "../context/CartContext"
+import { CustomerChat } from "../components/ComponentesGlobales/CustomerChat"
 // para usar context de layout// para usar context de layout
 const IndexPage = props => {
   // REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT// REACT CONTEXT
@@ -142,6 +143,7 @@ const IndexPage = props => {
 
       <SEO title="GEOTRANS Maquinarias Para Construccion y Movimiento de Tierra" />
       <Container fluid className="p-0 m-0 ">
+      <CustomerChat />
         <Portada />
         {/* {imgOptimizedTrucks.map(q => (
           <Img fluid={q.childImageSharp.fluid}></Img>

@@ -24,6 +24,7 @@
     "gatsby-source-mysql2": "^0.1.0",
     "gatsby-transformer-sharp": "^2.5.17",
     "i18next": "^19.8.2",
+    "node-gyp-build": "^4.2.3",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-awesome-slider": "^4.1.0",

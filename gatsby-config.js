@@ -95,6 +95,19 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-facebook-customer-chat`,
+    //   options: {
+    //     sdk: {
+    //       appId: "775159989996689",
+    //     },
+    //     chat: {
+    //       pageId: '106572004521097',
+    //       loggedInGreeting: "Hi! How can I help you?",
+    //       loggedOutGreeting: "Hi! How can I help you?",
+    //     },
+    //   },
+    // },
     // test
   ],
 }
