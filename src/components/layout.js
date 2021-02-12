@@ -13,6 +13,8 @@ import Headertop from "../components/ComponentesSecciones/HEADER/Headertop"
 import Footegeotrans from "../components/ComponentesSecciones/FOOTER/footegeotrans"
 import "./layout.css" // hoja estilo global
 import { CartContext } from "../context/CartContext"
+// import { CustomerChat } from "./ComponentesGlobales/CustomerChat"
+import Helmet from "react-helmet"
 
 // favicons
 // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,8 +24,6 @@ import { CartContext } from "../context/CartContext"
 // <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff6e40">
 // <meta name="msapplication-TileColor" content="#da532c">
 // <meta name="theme-color" content="#f8f8ff"></meta>
-
-import CustomerChat from "../components/ComponentesGlobales/CustomerChat"
 
 const Layout = ({ children }) => {
   // const { languages, changeLanguage } = useI18next()
@@ -40,7 +40,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      
       <CartContext.Consumer>
         {cart => (
           <main style={{ backgroundColor: "#f8f8ff" }}>
@@ -49,7 +48,9 @@ const Layout = ({ children }) => {
             <div
               style={{ backgroundColor: "#FF6E40", paddingTop: "3px" }}
             ></div>
+
             {children}
+
             {/* <Footer />  */}
 
             <Footegeotrans />

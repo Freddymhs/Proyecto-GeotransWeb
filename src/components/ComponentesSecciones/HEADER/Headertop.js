@@ -14,80 +14,86 @@ import {
   ParrafoMiniListado,
   SmallTextoTOp,
 } from "../../ComponentesGlobales/MisTextos"
+// import { CustomerChat } from "../../ComponentesGlobales/CustomerChat"
 
 const Headertop = () => {
   const { t } = useTranslation() // necesario
 
   return (
-    <Styled>
-      <Container fluid className="  ">
-        <Row>
-          <Col className="col-6  d-flex align-items-center">
-            <img
-              style={{ height: "30px", width: "30px" }}
-              alt="horario geotrans"
-              src={horario}
-              className="d-inline-block align-top"
-            />
-            <span className="ml-1 ">
-              <SmallTextoTOp>
-                <p>{t("headertop.dias")}</p>
-              </SmallTextoTOp>
-              <SmallTextoTOp>
-                <p style={{ whiteSpace: "nowrap" }}>{t("headertop.horas")}</p>
-              </SmallTextoTOp>
-            </span>
-          </Col>
-
-          <Col className="col-6  d-flex align-items-center ">
-            <Col>
-              <a className="ml-auto" href={t("datosgeotrans.emailContact")}>
-                <Col className=" d-flex align-items-end justify-content-center">
-                  <img
-                    alt="correo geotrans"
-                    src={email}
-                    className="d-inline-block align-top"
-                  />
-
-                  <span className="ml-2 d-none  d-lg-block">
-                    <SmallTextoTOp>{t("datosgeotrans.email")}</SmallTextoTOp>
-                  </span>
-                </Col>
-              </a>
+    <>
+     
+      <Styled>
+        <Container fluid className="  ">
+          <Row>
+            <Col className="col-6  d-flex align-items-center">
+              <img
+                style={{ height: "30px", width: "30px" }}
+                alt="horario geotrans"
+                src={horario}
+                className="d-inline-block align-top"
+              />
+              <span className="ml-1 ">
+                <SmallTextoTOp>
+                  <p>{t("headertop.dias")}</p>
+                </SmallTextoTOp>
+                <SmallTextoTOp>
+                  <p style={{ whiteSpace: "nowrap" }}>{t("headertop.horas")}</p>
+                </SmallTextoTOp>
+              </span>
             </Col>
-            <Col>
-              <a href={t("datosgeotrans.telefonoContact")}>
-                <Col className=" d-flex align-items-end justify-content-center">
-                  <img
-                    alt="telefono geotrans"
-                    src={telefono}
-                    className="d-inline-block align-top"
-                  />
-                  <span className="ml-2 d-none  d-lg-block">
-                    <SmallTextoTOp>{t("datosgeotrans.telefono")}</SmallTextoTOp>
-                  </span>
-                </Col>
-              </a>
-            </Col>
-            <Col>
-              <a href={t("datosgeotrans.facebookContact")} target="_blank">
-                <Col className=" d-flex align-items-end justify-content-center">
-                  <img
-                    alt="red social geotrans"
-                    src={masredes}
-                    className="d-inline-block align-top"
-                  />
 
-                  <span className="ml-2 d-none d-lg-block ">
-                    <SmallTextoTOp>{t("datosgeotrans.social")}</SmallTextoTOp>
-                  </span>
-                </Col>
-              </a>
+            <Col className="col-6  d-flex align-items-center ">
+              <Col>
+                <a className="ml-auto" href={t("datosgeotrans.emailContact")}>
+                  <Col className=" d-flex align-items-end justify-content-center">
+                    <img
+                      alt="correo geotrans"
+                      src={email}
+                      className="d-inline-block align-top"
+                    />
+
+                    <span className="ml-2 d-none  d-lg-block">
+                      <SmallTextoTOp>{t("datosgeotrans.email")}</SmallTextoTOp>
+                    </span>
+                  </Col>
+                </a>
+              </Col>
+              <Col>
+                <a href={t("datosgeotrans.telefonoContact")}>
+                  <Col className=" d-flex align-items-end justify-content-center">
+                    <img
+                      alt="telefono geotrans"
+                      src={telefono}
+                      className="d-inline-block align-top"
+                    />
+                    <span className="ml-2 d-none  d-lg-block">
+                      <SmallTextoTOp>
+                        {t("datosgeotrans.telefono")}
+                      </SmallTextoTOp>
+                    </span>
+                  </Col>
+                </a>
+              </Col>
+              <Col>
+                <a href={t("datosgeotrans.facebookContact")} target="_blank">
+                  <Col className=" d-flex align-items-end justify-content-center">
+                    <img
+                      alt="red social geotrans"
+                      src={masredes}
+                      className="d-inline-block align-top"
+                    />
+
+                    <span className="ml-2 d-none d-lg-block ">
+                      <SmallTextoTOp>{t("datosgeotrans.social")}</SmallTextoTOp>
+                    </span>
+                  </Col>
+                </a>
+              </Col>
             </Col>
-          </Col>
-        </Row>
-      </Container>
-    </Styled>
+          </Row>
+        </Container>
+      </Styled>
+    </>
   )
 }
 

@@ -14,12 +14,14 @@ import Los3puntos from "../components/ComponentesGlobales/Los3puntos"
 import Contactactofast from "../components/ComponentesSecciones/PageUs/Contactactofast"
 
 import { Separador } from "../components/ComponentesGlobales/Separador"
+// import { CustomerChat } from "../components/ComponentesGlobales/CustomerChat"
 
 const Us = () => {
   return (
     <Layout>
       <Separador />
       <SEO title="Nuestra Empresa" />
+      {/* <CustomerChat /> */}
       <Titulo />
       <Introduccion />
       <div style={{ width: "100%", height: "17vh" }} className="d-block">

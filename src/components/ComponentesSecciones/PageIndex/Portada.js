@@ -8,10 +8,11 @@ import {
   TextoGrandeBold,
   TextoGrande,
 } from "../../ComponentesGlobales/MisTextos"
-
+// import { CustomerChat } from "../../ComponentesGlobales/CustomerChat"
 const Portada = () => {
   return (
     <>
+      {/* <CustomerChat /> */}
       <div style={videowrap}>
         <VideoPortada />
         <Overlay />
@@ -114,13 +115,13 @@ const videosfondo = {
   zIndex: "1",
   objectPosition: "top right",
   // width: "100%", height: "100vh",
- 
+
   objectFit: "fill",
   backgroundColor: "#29434e",
 
   width: "auto",
   minWidth: "100%",
-    // height: "89vh",   NO CUADRABA BIEN EN EDGE :/
+  // height: "89vh",   NO CUADRABA BIEN EN EDGE :/
 }
 
 const overlayefecto = {
