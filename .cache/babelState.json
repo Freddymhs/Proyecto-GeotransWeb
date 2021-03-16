@@ -7,23 +7,26 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -39,23 +42,26 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -71,23 +77,26 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -103,23 +112,26 @@
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
+          "name": "/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],

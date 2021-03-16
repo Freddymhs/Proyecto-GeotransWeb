@@ -6,7 +6,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-react-i18next/gatsby-browser.js'),
-      options: {"plugins":[],"path":"C:\\Users\\fmarc\\OneDrive\\Escritorio\\EnDesarrollo\\Proyecto-GeotransWeb/locales","languages":["es","en"],"defaultLanguage":"es","i18nextOptions":{"interpolation":{"escapeValue":false},"keySeparator":".","nsSeparator":false},"pages":[{"matchPath":"/:lang?/blog/:uid","getLanguageFromPath":true,"excludeLanguages":["es"]},{"matchPath":"/preview","languages":["es"]}]},
+      options: {"plugins":[],"path":"/Users/fmarcos/Desktop/apps/running/Proyecto-GeotransWeb/locales","languages":["es","en"],"defaultLanguage":"es","i18nextOptions":{"interpolation":{"escapeValue":false},"keySeparator":".","nsSeparator":false},"pages":[{"matchPath":"/:lang?/blog/:uid","getLanguageFromPath":true,"excludeLanguages":["es"]},{"matchPath":"/preview","languages":["es"]}]},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
